@@ -1,0 +1,211 @@
+#root {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.landing-page-frame {
+  max-width: 100vw; 
+  height: 1063px;
+  margin: 0 auto;
+  padding: 0 2rem 46px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Upper-Menu-Bg {
+  width: 100vw; 
+  height: 38px;
+  margin-top: -40px;
+  padding: 15px 26px; 
+  background-color: #309575;
+}
+
+.Main-Menu-Item {
+  width: 1102px;
+  height: 49px;
+  margin: 3px 301px 0 37px;
+  list-style: none;
+  text-align: left;
+  display: flex;
+}
+
+.logo {
+  width: 112px;
+  height: 27px;
+  margin: 11px 191px 11px 0;
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1b686a;
+  text-decoration: none;
+}
+
+.registro, .login{
+  width: 95px;
+  height: 18px;
+  margin: 13px 18px 4.5px 94px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999799;
+  text-decoration: none;
+}
+
+.Rectangle-11 {
+  position: fixed; /* Tornar o rodapé fixo */
+  bottom: 0; /* Colocar o rodapé no final da página */
+  width: 100%; 
+  height: 52px;
+  background-color: #2f9294;
+}
+
+
+.Rectangle-2 {
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ebeef1;
+}
+
+.Rectangle-8 {
+  width: 206.3px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px; 
+  box-shadow: -7px -3px 16px 3px rgba(0, 0, 0, 0.25);
+  background-color: #ebeef1;
+}
+
+.Rectangle-8  img{
+  width: 150px;
+}
+
+.ver-horarios-button {
+  text-decoration: none;
+  color: #000;
+  background-color: #2f9294;
+  border-radius: 4px;
+}
+
+.getninjas-card {
+  width: 506px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: -7px -3px 16px 3px rgba(0, 0, 0, 0.25);
+  background-color: #ebeef1;
+  padding: 20px; 
+}
+
+.getninjas-strong {
+  width: auto; 
+  height: auto; 
+  margin: 0 0 6px 53px;
+  padding: 12px 20px; 
+  border-radius: 100px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1; 
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.getninjas-img {
+  width: 150px;
+  margin-left: 53px;
+}
+
+.getninjas-ul {
+  width: 250px;
+  margin: 6px 11px 0 101px; 
+  padding: 20px; 
+}
+
+.getninjas-p {
+  width: auto; 
+  height: auto; 
+  margin: 9px 53px 0 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1; 
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.getninjas-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: #2f9294;
+}
+
+
+
+
+
